@@ -1,7 +1,7 @@
 # kafka-lag-time
 
 # Our Code logic : 
-I have also written code in java to find Kafka - lag time. just connecting with influx DB with URL = host4:19009 , username = acceldata, and pw : D@t@Ops. And running query for particular G, T, P. And make point class having offset, timestamp , lag offset, and lag time. Lag Offset can be achieved by diff of legend offset and offset. For a lag time, I m using scala written function estimate and estimating lag time using interpolation logic.
+I have also written code in java to find Kafka - lag time. just connecting with influx DB with URL , username , and password. And running query for particular G, T, P. And make point class having offset, timestamp , lag offset, and lag time. Lag Offset can be achieved by diff of legend offset and offset. For a lag time, I m using scala written function estimate and estimating lag time using interpolation logic.
 
 
 
